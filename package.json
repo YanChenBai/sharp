@@ -1,5 +1,5 @@
 {
-  "name": "sharp",
+  "name": "@byc/sharp-linux-x64",
   "description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, GIF, AVIF and TIFF images",
   "version": "0.34.1",
   "author": "Lovell Fuller <npm@lovell.info>",
@@ -112,7 +112,8 @@
   "files": [
     "install",
     "lib",
-    "src/*.{cc,h,gyp}"
+    "src/*.{cc,h,gyp}",
+    "src/build/Release/sharp-linux-x64.node"
   ],
   "repository": {
     "type": "git",
